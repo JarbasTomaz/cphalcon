@@ -241,7 +241,7 @@ class Str
      */
     final public static function dirSeparator(string! directory) -> string
     {
-        return rtrim(directory, DIRECTORY_SEPARATOR) . DIRECTORY_SEPARATOR;
+        return rtrim(directory, "\\/" . DIRECTORY_SEPARATOR;
     }
 
     /**
